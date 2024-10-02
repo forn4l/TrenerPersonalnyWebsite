@@ -384,58 +384,60 @@
             </div>
         </div>
     </section>
-</div>        <section class="contact section" id="contact">
-        <div class="wrapper">
-        <h2 class="section-title">Skontaktuj się</h2>
+</div>        <div class="wrapper"></div>
+
+
+<section class="contact section" id="contact">
+
+    <h2 class="section-title">Skontaktuj się</h2>
+    <div class="contact__container">
+        <form class="contact__form">
+
+            <label for="name" class="contact__form-label">Imię i nazwisko:</label>
+            <input type="text" class="contact__form-input" id="name">
+            <p class="name-error-text"></p>
+            <label for="email" class="contact__form-label">Adres e-mail:</label>
+            <input type="text" class="contact__form-input" id="email">
+            <p class="email-error-text"></p>
+            <label for="msg" class="contact__form-label">Wiadomość:</label>
+            <textarea id="msg" class="contact__form-area"></textarea>
+
+            <p class="general-error-text"> Nie wszystkie pola zostały uzupełnione!</p>
+
+            <button class="contact__form-btn" type="submit">Wyślij</button>
+        </form>
+
         <div class="contact__box">
 
-
-
-            <form class="contact__form">
-
-                <label for="name" class="contact__form-label">Imię i nazwisko:</label>
-                <input type="text" class="contact__form-input" id="name">
-                <p class="name-error-text"></p>
-                <label for="email" class="contact__form-label">Adres e-mail:</label>
-                <input type="text" class="contact__form-input" id="email">
-                <p class="email-error-text"></p>
-                <label for="msg" class="contact__form-label">Wiadomość:</label>
-                <textarea id="msg" class="contact__form-area"></textarea>
-
-                <p class="general-error-text"> Nie wszystkie pola zostały uzupełnione!</p>
-
-                <button class="contact__form-btn" type="submit">Wyślij</button>
-            </form>
-
             <div class="contact__card">
-
+                <i class="fa-solid fa-envelope"></i>
                 <div class="contact__card-item">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Jasnogórska 2, 31-358 Kraków</p>
-
-                </div>
-                <div class="contact__card-item">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>000-000-000</p>
-
-                </div>
-                <div class="contact__card-item">
-                    <i class="fa-solid fa-at"></i>
-                    <p>forest@forest.pl</p>
-
-                </div>
-
-                <div class="contact__card-maps">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898233927739!2d19.890269277078076!3d50.08819217152521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1721151166834!5m2!1spl!2spl"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="contact__card-item-title">Telefon:</p>
+                    <p class="contact__card-item-text">731-464-180</p>
                 </div>
             </div>
 
+            <div class="contact__card">
+                <i class="fa-solid fa-phone"></i>
+                <div class="contact__card-item">
+                    <p class="contact__card-item-title">Email:</p>
 
-        </section>
+                    <p class="contact__card-item-text">kamillgalek@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact__card">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="contact__card-item">
+                    <p class="contact__card-item-title">Adres:</p>
+                    <p class="contact__card-item-text">Francuska 184, 40-507 Katowice</p>
+                </div>
+            </div>
         </div>
+
+    </div>
+</section>
+
 </div>
     </main>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
