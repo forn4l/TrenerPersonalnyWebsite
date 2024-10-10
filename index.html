@@ -22,19 +22,34 @@
 
 <body>
     <header class="header">
+    <nav class="nav-mobile">
+
+    <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
     <div class="logo"><a href="#">Logo</a></div>
-<button class="hamburger hamburger--spin" type="button">
-    <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-    </span>
-</button>
-<nav class="nav">
-    <ul class="nav__list">
-        <li class="nav__list-item"><a class="nav__link" href="#contact">Kontakt</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="#offers">Treningi</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="#aboutme">O mnie</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="#reviews">Opinie</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="#pricelist">Oferta</a></li>
+
+
+    <ul class="nav-mobile__list">
+        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#contact">Kontakt</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#offers">Treningi</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#aboutme">O mnie</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#reviews">Opinie</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#pricelist">Oferta</a></li>
+    </ul>
+</nav>
+
+
+<nav class="nav-desktop">
+    <ul class="nav-desktop__list">
+        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#offers">Treningi</a></li>
+        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#aboutme">O mnie</a></li>
+        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#reviews">Opinie</a></li>
+        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#pricelist">Oferta</a></li>
+        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#contact">Kontakt</a></li>
     </ul>
 </nav>        <div class="header__text">
             <h1 class="header__text-title">Doprowadzę Cię<span class="break-line"> do pełnej sprawności</span></h1>
@@ -51,216 +66,89 @@
             </p>
         </div>
 </header>    <main>
-        <section class="offers" id="offers">
 
-    <h2 class="section-title">Zobacz w czym <span class="break-line">mogę Ci pomóc</span></h2>
+        <div class="wrapper">
+    <section class="buttons">
+        <h2 class="section-title">Zobacz w czym <span class="break-line">mogę Ci pomóc</span></h2>
 
-    <div class="offers__buttons">
-        <a href="index.html#first-offer" class="button">Poprawa postawy</a>
-        <a href="index.html#second-offer" class="button">Poprawa mobilności</a>
-        <a href="index.html#third-offer" class="button">Poprawa siły</a>
+        <div class="buttons__box">
+            <a href="index.html#first-offer" class="button">Poprawa postawy</a>
+            <a href="index.html#second-offer" class="button">Poprawa mobilności</a>
+            <a href="index.html#third-offer" class="button">Poprawa siły</a>
+        </div>
+    </section>
+</div>        <section class="article" id="article">
+
+    <div class="swiper slider2">
+        <div class="wrapper swiper-wrapper">
+            <div class="article__page swiper-slide">
+                <h2 class="article__page-title">Poprawa Postawy</h2>
+                <p class="article__page-text text-one">Na tym etapie naszej współpracy skupimy się na korygowaniu i poprawie
+                    Twojej postawy ciała. To kluczowy element, który wpływa na Twoje codzienne funkcjonowanie,
+                    efektywność treningów oraz ogólne samopoczucie.</p>
+
+                <img class="article__page-img img-one" src="/img/offer_one.jpg" alt="">
+                <img class="article__page-img img-two" src="/img/offer_three.jpg" alt="">
+                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="article__page swiper-slide">
+                <h2 class="article__page-number">1</h2>
+                <p class="article__page-text text-two">Ocena Postawy:**  
+                    Najpierw przeprowadzę szczegółową analizę Twojej postawy. Wykorzystam narzędzia takie jak ocena wizualna, testy funkcjonalne oraz ewentualnie zdjęcia, aby zidentyfikować wszelkie nieprawidłowości, takie jak zaokrąglone plecy, asymetrie ciała, czy też niewłaściwe ułożenie miednicy.</p>
+                    <img class="article__page-img img-three" src="/img/offer_two.jpg" alt="">
+                
+                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="article__page swiper-slide">
+                <h2 class="article__page-number">2</h2>
+                <p class="article__page-text text-three">Na tym etapie naszej współpracy skupimy się na korygowaniu i poprawie
+                    Twojej postawy ciała. To kluczowy element, który wpływa na Twoje codzienne funkcjonowanie,
+                    efektywność treningów oraz ogólne samopoczucie.</p>
+
+                <img class="article__page-img img-four" src="/img/offer_one.jpg" alt="">
+                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            <div class="article__page swiper-slide">
+                <h2 class="article__page-number">3</h2>
+                <p class="article__page-text text-two">Na tym etapie naszej współpracy skupimy się na korygowaniu i poprawie
+                    Twojej postawy ciała. To kluczowy element, który wpływa na Twoje codzienne funkcjonowanie,
+                    efektywność treningów oraz ogólne samopoczucie.</p>
+                <img class="article__page-img img-three" src="/img/offer_one.jpg" alt="">
+            </div>
+
+
+
+        </div>
     </div>
-
-    <div class="offers__box">
-
-        <h3 class="offer-item__top-title-mobile"><span class="break-line">Trening poprawiający</span> postawę ciała
-        </h3>
-        <div class="offer-item one" id="first-offer">
-            <div class="offer-item__top">
-
-                <h3 class="offer-item__top-title-desktop">Poprawa postawy</h3>
-
-                <p class="offer-item__top-text">
-                    Na tym etapie naszej współpracy skupimy się na korygowaniu i poprawie Twojej postawy ciała. To
-                    kluczowy element, który wpływa na Twoje codzienne funkcjonowanie, efektywność treningów oraz ogólne
-                    samopoczucie.
-                </p>
-            </div>
-
-            <div class="offer-item__bottom">
-                <div class="offer-item__bottom-text">
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">1</p>
-                        <p class="offer-item__bottom-card-text"> Ocena Postawy:**
-                            Najpierw przeprowadzę szczegółową analizę Twojej postawy. Wykorzystam narzędzia takie jak
-                            ocena
-                            wizualna, testy funkcjonalne oraz ewentualnie zdjęcia, aby zidentyfikować wszelkie
-                            nieprawidłowości,
-                            takie jak zaokrąglone plecy, asymetrie ciała, czy też niewłaściwe ułożenie miednicy.</p>
-                    </div>
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">2</p>
-                        <p class="offer-item__bottom-card-text"> Indywidualny Plan Korygujący:**
-                            Na podstawie wyników oceny, przygotuję spersonalizowany plan treningowy, który będzie
-                            skupiał
-                            się na
-                            wzmacnianiu osłabionych partii mięśniowych oraz rozciąganiu nadmiernie napiętych grup
-                            mięśni.
-                        </p>
-                    </div>
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">3</p>
-                        <p class="offer-item__bottom-card-text"> Ćwiczenia Poprawiające Postawę:**
-                            Podczas naszych sesji treningowych wprowadzę zestaw ćwiczeń, które pomogą skorygować Twoją
-                            postawę.
-                            Będą to m.in. ćwiczenia stabilizujące kręgosłup, wzmacniające mięśnie głębokie oraz
-                            poprawiające
-                            mobilność stawów. </p>
-                    </div>
-
-                </div>
-                <div class="offer-item__bottom-gallery">
-                    <img src="./img/offer_one.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_two.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_three.jpg" alt="" class="offer-item__bottom-gallery-img">
-                </div>
-            </div>
-
-        </div>
-        <h3 class="offer-item__top-title-mobile"><span class="break-line">Trening poprawiający</span> mobilność i
-            sprawność
-        </h3>
-        <div class="offer-item two black" id="second-offer">
-            <div class="offer-item__top">
-
-                <h3 class="offer-item__top-title-desktop black">Poprawa mobilności</h3>
-
-                <p class="offer-item__top-text black">
-                    Ten etap naszej współpracy skoncentruje się na zwiększeniu mobilności Twojego ciała, co jest
-                    kluczowe zarówno dla efektywności treningów, jak i dla codziennego funkcjonowania. Poprawa
-                    mobilności pozwoli Ci na swobodniejsze, pełniejsze ruchy, zmniejszy ryzyko kontuzji oraz poprawi
-                    Twoje osiągnięcia sportowe.
-                </p>
-            </div>
-
-            <div class="offer-item__bottom ">
-                <div class="offer-item__bottom-text">
-                    <div class="offer-item__bottom-card black ">
-                        <p class="offer-item__bottom-card-number">1</p>
-                        <p class="offer-item__bottom-card-text"> Ocena Mobilności: Zaczniemy od szczegółowej oceny
-                            Twojej
-                            aktualnej mobilności. Przeprowadzę testy funkcjonalne, które pozwolą nam zidentyfikować
-                            ograniczenia w zakresie ruchu poszczególnych stawów i grup mięśniowych. Zbadamy, które
-                            obszary
-                            ciała wymagają najwięcej uwagi, aby zoptymalizować Twoją zdolność do wykonywania pełnych,
-                            kontrolowanych ruchów.</p>
-                    </div>
-                    <div class="offer-item__bottom-card black">
-                        <p class="offer-item__bottom-card-number">2</p>
-                        <p class="offer-item__bottom-card-text">Ćwiczenia Poprawiające Mobilność :Podczas naszych sesji
-                            treningowych wprowadzimy zestaw ćwiczeń dedykowanych poprawie mobilności. Będą to m.in.
-                            dynamiczne rozciąganie, techniki uwalniania powięziowego, praca z wałkiem (foam rolling)
-                            oraz
-                            ćwiczenia zwiększające zakres ruchu w kluczowych stawach, takich jak biodra, ramiona, czy
-                            kręgosłup.
-                        </p>
-                    </div>
-                    <div class="offer-item__bottom-card black">
-                        <p class="offer-item__bottom-card-number">3</p>
-                        <p class="offer-item__bottom-card-text"> Regularnie będziemy monitorować Twoje postępy,
-                            obserwując,
-                            jak zwiększa się zakres Twojego ruchu. W miarę poprawy, plan mobilności będzie ewoluował,
-                            aby
-                            dostosować się do nowych wyzwań i celów. Będziemy na bieżąco modyfikować ćwiczenia, by stale
-                            rozwijać Twoje możliwości. </p>
-                    </div>
-
-                </div>
-
-                <div class="offer-item__bottom-gallery">
-                    <img src="./img/offer_four.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_five.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_six.jpg" alt="" class="offer-item__bottom-gallery-img">
-                </div>
-
-            </div>
-        </div>
-
-        <h3 class="offer-item__top-title-mobile"><span class="break-line">Trening siłowy</span> poprawiający zdolność
-        </h3>
-        <div class="offer-item three" id="third-offer">
-            <div class="offer-item__top">
-
-                <h3 class="offer-item__top-title-desktop">Trening siłowy</h3>
-
-                <p class="offer-item__top-text">
-                    Na tym etapie naszej współpracy skoncentrujemy się na budowaniu siły, co jest fundamentem zarówno
-                    dla rozwoju sylwetki, jak i poprawy ogólnej sprawności fizycznej. Trening siłowy to nie tylko sposób
-                    na zwiększenie masy mięśniowej, ale również na poprawę funkcjonalności ciała, wytrzymałości oraz
-                    ogólnego zdrowia.
-                </p>
-            </div>
-
-            <div class="offer-item__bottom">
-                <div class="offer-item__bottom-text">
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">1</p>
-                        <p class="offer-item__bottom-card-text">Ocena Poziomu Siły: Rozpoczniemy od szczegółowej analizy
-                            Twojego aktualnego poziomu siły. Przeprowadzimy testy, które pozwolą ocenić siłę
-                            poszczególnych
-                            grup mięśniowych, proporcje między nimi oraz technikę wykonywania podstawowych ćwiczeń
-                            siłowych,
-                            takich jak przysiady, martwe ciągi czy wyciskanie na ławce.</p>
-                    </div>
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">2</p>
-                        <p class="offer-item__bottom-card-text"> Nauka Technik i Formy: Podczas naszych sesji skupimy
-                            się
-                            na
-                            opanowaniu prawidłowej techniki wykonywania ćwiczeń siłowych. Będę na bieżąco korygować
-                            Twoją
-                            postawę, ucząc Cię, jak bezpiecznie i efektywnie podnosić ciężary. Poprawna forma jest
-                            kluczowa,
-                            aby zmaksymalizować efekty treningu i uniknąć kontuzji.
-                        </p>
-                    </div>
-                    <div class="offer-item__bottom-card">
-                        <p class="offer-item__bottom-card-number">3</p>
-                        <p class="offer-item__bottom-card-text"> Regularnie będziemy monitorować Twoje postępy, śledząc
-                            wzrost siły, zmianę składu ciała oraz poprawę techniki. Na podstawie wyników będziemy
-                            dostosowywać plan treningowy, wprowadzając zmiany, które pomogą Ci w osiągnięciu kolejnych
-                            celów, takich jak zwiększenie masy mięśniowej, poprawa wytrzymałości siłowej, czy redukcja
-                            tkanki tłuszczowej.</p>
-                    </div>
-                </div>
-
-                <div class="offer-item__bottom-gallery">
-                    <img src="./img/offer_seven.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_eith.jpg" alt="" class="offer-item__bottom-gallery-img">
-                    <img src="./img/offer_nine.jpg" alt="" class="offer-item__bottom-gallery-img">
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-
 </section>        <div class="wrapper">
-    <h2 class="section-title">Poznajmy się</h2>
     <section class="aboutme" id="aboutme">
-        <div class="aboutme__text">
-            <p>Zdrowy codzienny ruch to klucz do pełnego i satysfakcjonującego życia – to przekonanie leży u podstaw
-                mojej pracy jako trenera personalnego. </p> <br>
+        <h2 class="section-title">Poznajmy się</h2>
+        <div class="aboutme__box">
+            <div class="aboutme__box-text">
+                <p>Zdrowy codzienny ruch to klucz do pełnego i satysfakcjonującego życia – to przekonanie leży u podstaw
+                    mojej pracy jako trenera personalnego. </p> <br>
 
-            <p>Moim celem jest nie tylko poprawa Twojej kondycji fizycznej, ale także pokazanie, jak sprawność może
-                pozytywnie wpłynąć na codzienne funkcjonowanie.
-            </p><br>
+                <p>Moim celem jest nie tylko poprawa Twojej kondycji fizycznej, ale także pokazanie, jak sprawność może
+                    pozytywnie wpłynąć na codzienne funkcjonowanie.
+                </p><br>
 
-            <p>W treningach łączę elementy gimnastyki, kalisteniki oraz moją pasję do gór, biegania, roweru i triathlonu, abyś mógł czerpać radość z aktywności fizycznej.</p><br>
+                <p>W treningach łączę elementy gimnastyki, kalisteniki oraz moją pasję do gór, biegania, roweru i
+                    triathlonu, abyś mógł czerpać radość z aktywności fizycznej.</p><br>
 
-            <p> Dzięki wieloletniemu doświadczeniu w sporcie i aktywności fizycznej, oraz umiejętności skutecznej komunikacji, potrafię współpracować z osobami na każdym poziomie zaawansowania. </p><br>
+                <p> Dzięki wieloletniemu doświadczeniu w sporcie i aktywności fizycznej, oraz umiejętności skutecznej
+                    komunikacji, potrafię współpracować z osobami na każdym poziomie zaawansowania. </p><br>
 
 
-            <p>Razem możemy osiągnąć Twoje cele i sprawić, że zdrowy ruch stanie się integralną częścią Twojego życia.
-            </p><br>
-        </div>
-        <div class="aboutme__image">
-            <p class="aboutme__image-text">Pasja do sportu</p>
-        </div>
+                <p>Razem możemy osiągnąć Twoje cele i sprawić, że zdrowy ruch stanie się integralną częścią Twojego
+                    życia.
+                </p><br>
+            </div>
+            <div class="aboutme__box-image">
+                <p class="aboutme__box-image-text">Pasja do sportu</p>
+            </div>
 
-        <div class="gallery__instagram">
-            
         </div>
     </section>
 </div>        <div class="wrapper">
@@ -268,7 +156,7 @@
         <h2 class="section-title">Opinie</h2>
 
 
-        <div class="reviews-carousel swiper-container">
+        <div class="reviews-carousel swiper-container slider1">
             <div class="reviews-wrapper swiper-wrapper">
 
 
@@ -402,7 +290,7 @@
         </div>
 
 
-        <div class="pricelist__box">
+        <div class="pricelist__box opened">
 
 
             <div class="pricelist__card">
