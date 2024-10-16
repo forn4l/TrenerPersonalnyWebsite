@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/hamburger.min.css">
     <script src="https://kit.fontawesome.com/4e7e4e0adf.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
@@ -30,44 +31,53 @@
         </span>
     </button>
 
-    <div class="logo"><a href="#">Logo</a></div>
+    <div class="logo"><a href="index.html">Logo</a></div>
 
 
     <ul class="nav-mobile__list">
-        <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#contact">Kontakt</a></li>
+        <li class="nav-mobile__list-item "><a class="nav-mobile__link pulsate-animation" href="#contact">Kontakt</a>
+        </li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#buttons">Treningi</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#aboutme">O mnie</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#reviews">Opinie</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__link" href="#pricelist">Oferta</a></li>
+        <li class="nav-mobile__list-item">
+            <a href="https://www.instagram.com/kamil_galek" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100001087650493" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+        </li>
     </ul>
 </nav>
 
 
 <nav class="nav-desktop">
+    <div class="logo"><a href="index.html">Logo</a></div>
     <ul class="nav-desktop__list">
         <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#buttons">Treningi</a></li>
         <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#aboutme">O mnie</a></li>
         <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#reviews">Opinie</a></li>
         <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#pricelist">Oferta</a></li>
-        <li class="nav-desktop__list-item"><a class="nav-desktop__link" href="#contact">Kontakt</a></li>
+        <li class="nav-desktop__list-item pulsate-animation"><a class="nav-desktop__link" href="#contact">Kontakt</a>
+        </li>
     </ul>
-</nav>        <div class="header__text">
-            <h1 class="header__text-title">Doprowadzę Cię<span class="break-line"> do pełnej sprawności</span></h1>
-            <p class="header__text-additional-text">
-                <span>sprawność</span> <span>mobilność</span> <span>funkcjonalność</span>
-            </p>
-        </div>
+</nav>    <div class="header__text">
+        <h1 class="header__text-title">Doprowadzę Cię<span class="break-line"> do pełnej sprawności</span></h1>
+        <p class="header__text-additional-text">
+            <span>sprawność</span> <span>funkcjonalność</span><span>mobilność</span>
+        </p>
+    </div>
 
-        <div class="header__hero">
-            <div class="header__hero-shadow"></div>
-            <h2 class="header__hero-text">Zadbam o Twoje <span class="break-line"> zdrowie</span></h2>
-            <p class="header__hero-text-additional">Poprawię twoją sprawność,<br> ruchomość i mobilność całego
-                <br>ciała. Wzmocnię twoją sylwetkę <br>i usprawnię twój stan zdrowia.
-            </p>
-        </div>
+    <div class="header__hero">
+        <div class="header__hero-shadow"></div>
+        <h2 class="header__hero-text">Zadbam o Twoje <span class="break-line"> zdrowie</span></h2>
+        <p class="header__hero-text-additional">Poprawię twoją sprawność,<br> ruchomość i mobilność całego
+            <br>ciała. Wzmocnię twoją sylwetkę <br>i usprawnię twój stan zdrowia.
+        </p>
+    </div>
 </header>    <main>
-        <div class="wrapper">
-    <section class="buttons" id="buttons">
+        <div class="wrapper" >
+    <section class="buttons" id="buttons" data-aos="fade-up">
         <h2 class="section-title">Zobacz w czym <span class="break-line">mogę Ci pomóc</span></h2>
 
         <div class="buttons__box">
@@ -76,7 +86,7 @@
             <a href="index.html#article-three" class="button">Poprawa siły</a>
         </div>
     </section>
-</div>        <section class="article" id="article-one">
+</div>        <section class="article" id="article-one" data-aos="fade-right">
     <div class="swiper slider2">
         <div class="swiper-wrapper">
 
@@ -126,7 +136,7 @@
 
     <div class="swiper-pagination"></div>
 
-</section>        <section class="article black" id="article-two">
+</section>        <section class="article black" id="article-two" data-aos="fade-left">
 
     <div class="swiper slider2">
         <div class="swiper-wrapper">
@@ -151,32 +161,32 @@
 
     </div>
 
-    <h2 class="article-title black">Poprawa mobilności</h2>
+    <h2 class="article-title white-text">Poprawa mobilności</h2>
 
-    <p class="article-text black">
+    <p class="article-text white-text">
         Pozwoli Ci na swobodniejsze i pełniejsze ruchy, zmniejszy ryzyko kontuzji oraz poprawi Twoje osiągnięcia
         sportowe
     </p>
-    <h3 class="article-title-tablet  black one">Szczegółowa analiza postawy</h3>
-    <p class="article-text-tablet black one">
+    <h3 class="article-title-tablet  white-text one">Szczegółowa analiza postawy</h3>
+    <p class="article-text-tablet white-text one">
         Na początku przeprowadzimy dokładną ocenę postawy z wykorzystaniem metod takich jak ocena wizualna postawy,
         testy funkcjonalne, a w razie potrzeby również zdjęcia postawy. Dzięki temu zidentyfikujemy wszelkie
         nieprawidłowości, takie jak zaokrąglone plecy, asymetria ciała czy niewłaściwe ułożenie miednicy.
     </p>
-    <h3 class="article-title-tablet  black two">Indywidualny plan korekcyjny</h3>
-    <p class="article-text-tablet  black two">
+    <h3 class="article-title-tablet  white-text two">Indywidualny plan korekcyjny</h3>
+    <p class="article-text-tablet  white-text two">
         Na podstawie wyników oceny stworzymy dla Ciebie spersonalizowany plan korekcji postawy. Skoncentrujemy się
         na wzmacnianiu osłabionych mięśni oraz rozciąganiu nadmiernie napiętych partii mięśniowych, co pomoże w
         przywróceniu prawidłowej postawy ciała i równowagi w organizmie.
     </p>
-    <h3 class="article-title-tablet black  three">Ćwiczenia na poprawę postawy</h3>
-    <p class="article-text-tablet black three">
+    <h3 class="article-title-tablet white-text  three">Ćwiczenia na poprawę postawy</h3>
+    <p class="article-text-tablet white-text three">
         Podczas naszych sesji treningowych na poprawę postawy wdrożymy zestaw specjalnie dobranych ćwiczeń, które
         pomogą skorygować Twoją postawę. Program obejmuje m.in. ćwiczenia stabilizujące kręgosłup, wzmacnianie
         mięśni głębokich oraz poprawę mobilności stawów.
     </p>
 
-</section>        <section class="article" id="article-three">
+</section>        <section class="article" id="article-three" data-aos="fade-right">
 
     <div class="swiper slider2">
         <div class=" swiper-wrapper">
@@ -197,7 +207,7 @@
 
         </div>
     </div>
-    <h2 class="article-title">Trening siłowy</h2>
+    <h2 class="article-title">Trening <span class="break-line">siłowy</span></h2>
     <p class="article-text">
         Trening siłowy to nie tylko sposób na zwiększenie masy mięśniowej, ale również na poprawę funkcjonalności
         ciała,
@@ -227,12 +237,11 @@
 
 
 
-</section>    
-        <div class="wrapper">
+</section>        <div class="wrapper">
     <section class="aboutme" id="aboutme">
-        <h2 class="section-title">Poznajmy się</h2>
+        <h2 class="section-title" data-aos="fade-down" >Poznajmy się</h2>
         <div class="aboutme__box">
-            <div class="aboutme__box-text">
+            <div class="aboutme__box-text" data-aos="fade-right">
                 <p>Zdrowy codzienny ruch to klucz do pełnego i satysfakcjonującego życia – to przekonanie leży u podstaw
                     mojej pracy jako trenera personalnego. </p> <br>
 
@@ -251,7 +260,7 @@
                     życia.
                 </p><br>
             </div>
-            <div class="aboutme__box-image">
+            <div class="aboutme__box-image" data-aos="fade-left">
                 <p class="aboutme__box-image-text">Pasja do sportu</p>
             </div>
 
@@ -259,10 +268,10 @@
     </section>
 </div>        <div class="wrapper">
     <section class="reviews" id="reviews">
-        <h2 class="section-title">Opinie</h2>
+        <h2 class="section-title" data-aos="fade-down">Opinie</h2>
 
 
-        <div class="reviews-carousel swiper-container slider1">
+        <div class="reviews-carousel swiper-container slider1" data-aos="fade-up">
             <div class="reviews-wrapper swiper-wrapper">
 
 
@@ -383,20 +392,20 @@
         </div>
     </section>
 </div>        <div class="wrapper">
-    <section class="pricelist" id="pricelist">
+    <section class="pricelist" id="pricelist" >
 
 
 
-        <h2 class="section-title">Oferta</h2>
+        <h2 class="section-title" data-aos="fade-down">Oferta</h2>
 
 
 
-        <div class="pricelist__box-title">
+        <div class="pricelist__box-title" data-aos="fade-right">
             <p class="pricelist__box-title-text">Treningi indywidualne</p> <i class="fa-solid fa-arrow-down"></i>
         </div>
 
 
-        <div class="pricelist__box opened">
+        <div class="pricelist__box opened" data-aos="fade-up">
 
 
             <div class="pricelist__card">
@@ -413,7 +422,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form" class="button pricelist-button">Zamawiam</a>
             </div>
 
 
@@ -431,7 +440,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
             <div class="pricelist__card">
@@ -448,14 +457,14 @@
                     <li class="pricelist__card-item">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
 
         </div>
 
 
-        <div class="pricelist__box-title">
+        <div class="pricelist__box-title" data-aos="fade-left">
             <p class="pricelist__box-title-text">Treningi w parach</p> <i class="fa-solid fa-arrow-down"></i>
         </div>
 
@@ -478,7 +487,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
 
@@ -496,7 +505,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
             <div class="pricelist__card">
@@ -513,13 +522,13 @@
                     <li class="pricelist__card-item">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
 
         </div>
 
-        <div class="pricelist__box-title">
+        <div class="pricelist__box-title" data-aos="fade-right">
             <p class="pricelist__box-title-text">Treningi grupowe</p> <i class="fa-solid fa-arrow-down"></i>
         </div>
 
@@ -540,7 +549,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
 
@@ -558,7 +567,7 @@
                     <li class="pricelist__card-item unavailable">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
             <div class="pricelist__card">
@@ -575,7 +584,7 @@
                     <li class="pricelist__card-item">Obliczanie kcal</li>
                 </ul>
 
-                <a href="index.html#contact " class="button pricelist-button">Zamawiam</a>
+                <a href="index.html#contact-form " class="button pricelist-button">Zamawiam</a>
             </div>
 
 
@@ -592,9 +601,9 @@
 
     <section class="contact section" id="contact">
 
-        <h2 class="section-title">Skontaktuj się</h2>
-        <div class="contact__container">
-            <form class="contact__form">
+        <h2 class="section-title"data-aos="fade-down">Skontaktuj się</h2>
+        <div class="contact__container" >
+            <form class="contact__form" id="contact-form" data-aos="fade-right">
                 <h3 class="contact__form-title">Odezwij się do nas – czekamy na kontakt!</h3>
                 <p class="contact__form-text">Masz pytania? Potrzebujesz dodatkowych informacji? Jestem tu, aby pomóc!
                     Skontaktuj się z nami za pomocą poniższych danych lub wypełnij formularz, a odpowiemy najszybciej,
@@ -612,7 +621,7 @@
                 <button class="button contact-button" type="submit">Wyślij</button>
             </form>
 
-            <div class="contact__box">
+            <div class="contact__box" data-aos="fade-left">
                 <img class="contact__box-img" src="./img/contact_img.jpg" alt="zdjecie kamila">
                 <div class="contact__card">
                     <i class="fa-solid fa-envelope"></i>
@@ -663,6 +672,7 @@
 
 </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
